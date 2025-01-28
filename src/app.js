@@ -23,7 +23,7 @@ app.use('/uploads', express.static('public/uploads'));
 app.use('/images', express.static('public/images'));
 
 app.set('view engine', 'ejs')
-app.set('views', path.resolve('views'));
+app.set('views', path.resolve('/views'));
 
 //static route
 app.use('/', staticRoute)
