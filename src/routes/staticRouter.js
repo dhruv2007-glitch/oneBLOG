@@ -13,7 +13,7 @@ router.get('/', async(req, res)=>{
 })
 
 router.get("/signin", (req, res)=>{
-    return res.render('signin')
+    return res.render('signIn')
 })
 
 router.get("/signup", (req, res)=>{
